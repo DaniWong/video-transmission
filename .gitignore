@@ -5,6 +5,7 @@ db.sqlite3
 **/settings/local.py
 /staticfiles/*
 /mediafiles/*
+/media/*
 __pycache__/
 /.vscode/
 
