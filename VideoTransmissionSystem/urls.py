@@ -22,6 +22,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('api-auth/', include('rest_framework.urls')),
     path('video-transmission/', include('video_transmission.urls')),
+    path('security/', include('security.urls')),
 ]
 
 
