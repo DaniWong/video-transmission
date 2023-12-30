@@ -85,6 +85,9 @@ def process_videos(video_list):
     for video in video_list:
         result = engine.process_video(video)
         print(video, result)
+        video.video_processed_data = result
+        video.video_process_status = ProcessedStatus.PROCESSED
+        video.save()
 
 
 # ===================================================================
