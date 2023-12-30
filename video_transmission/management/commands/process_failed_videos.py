@@ -3,7 +3,7 @@ from video_transmission.ai import process_failed_videos
 
 
 class Command(BaseCommand):
-    help = "Closes the specified poll for voting"
+    help = "For process failed videos"
 
     def handle(self, *args, **options):
         try:
@@ -13,5 +13,5 @@ class Command(BaseCommand):
             )
         except Exception as e:
             self.stdout.write(
-                self.style.SUCCESS('Unsuccessfully videos failed processed %s', e)
+                self.style.SUCCESS('Unsuccessfully videos failed processed %s', str(e))
             )
