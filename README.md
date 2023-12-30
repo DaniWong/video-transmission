@@ -53,6 +53,6 @@ Here are some screenshots of the frontend
 
 ![image](https://github.com/DaniWong/video-transmission/assets/5056497/f8ae1e65-927c-41a0-8696-f2cb34ef3180)
 
-![image](https://github.com/DaniWong/video-transmission/assets/5056497/58a3e5dd-8b7b-4e2a-b645-4c21f25c2b96)
+![image](https://github.com/DaniWong/video-transmission/assets/5056497/1058bf52-05fc-4e6d-b043-a8a166f661da)
 
 ![image](https://github.com/DaniWong/video-transmission/assets/5056497/8d4694e7-11f3-4df1-89de-34c918fe9f24)
