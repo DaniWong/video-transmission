@@ -3,7 +3,7 @@ from video_transmission.vms import retieve_videos
 
 
 class Command(BaseCommand):
-    help = "Closes the specified poll for voting"
+    help = "For retrieve videos from VMS"
 
     def handle(self, *args, **options):
         try:
