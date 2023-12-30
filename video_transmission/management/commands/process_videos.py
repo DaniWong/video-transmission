@@ -3,7 +3,7 @@ from video_transmission.ai import process_pending_videos
 
 
 class Command(BaseCommand):
-    help = "Closes the specified poll for voting"
+    help = "For process videos"
 
     def handle(self, *args, **options):
         try:
